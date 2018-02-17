@@ -1,0 +1,30 @@
+{
+  "name": "moma-in-google",
+  "version": "1.0.0",
+  "description": "Adds top MoMA search results into google search",
+  "main": "bundle.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucretiel/googler-search.git"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "Nathan West",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Lucretiel/googler-search/issues"
+  },
+  "homepage": "https://github.com/Lucretiel/googler-search#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "jquery": "^3.3.1",
+    "node-fetch": "^1.7.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "webpack": "^3.10.0"
+  }
+}

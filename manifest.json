@@ -1,0 +1,10 @@
+{
+	"name": "MoMA In Google",
+	"description": "Adds top MoMA search results into google search",
+	"version": "1",
+	"manifest_version": 2,
+	"content_scripts": [{
+		"matches": ["<all_urls>"],
+		"js": ["bundle.js"]
+	}]
+}
